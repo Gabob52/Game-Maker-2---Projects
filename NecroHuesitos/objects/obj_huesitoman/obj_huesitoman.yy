@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"huesitoman",
-    "path":"sprites/huesitoman/huesitoman.yy",
+    "name":"spr_huesitoman",
+    "path":"sprites/spr_huesitoman/spr_huesitoman.yy",
   },
   "spriteMaskId":null,
   "visible":true,

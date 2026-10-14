@@ -10,8 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"script","folderPath":"folders/script.yy","name":"script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"script","folderPath":"folders/script.yy","name":"script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tileset","folderPath":"folders/tileset.yy","name":"tileset","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -29,7 +29,7 @@
     {"id":{"name":"scr_get_input","path":"scripts/scr_get_input/scr_get_input.yy",},},
     {"id":{"name":"scr_state_idle","path":"scripts/scr_state_idle/scr_state_idle.yy",},},
     {"id":{"name":"scr_state_move","path":"scripts/scr_state_move/scr_state_move.yy",},},
-    {"id":{"name":"huesitoman","path":"sprites/huesitoman/huesitoman.yy",},},
+    {"id":{"name":"spr_huesitoman","path":"sprites/spr_huesitoman/spr_huesitoman.yy",},},
     {"id":{"name":"spr_tileset_details","path":"sprites/spr_tileset_details/spr_tileset_details.yy",},},
     {"id":{"name":"spr_tileset_objects","path":"sprites/spr_tileset_objects/spr_tileset_objects.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
