@@ -1,0 +1,2 @@
+//Estado
+spd = 5;

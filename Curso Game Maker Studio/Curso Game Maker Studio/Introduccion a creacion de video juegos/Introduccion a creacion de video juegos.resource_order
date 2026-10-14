@@ -1,0 +1,26 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
+    {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"bat man","order":2,"path":"folders/Sprites/bat man.yy",},
+    {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_ending_sensor","order":6,"path":"objects/obj_ending_sensor/obj_ending_sensor.yy",},
+    {"name":"obj_ending","order":7,"path":"objects/obj_ending/obj_ending.yy",},
+    {"name":"obj_gameover","order":5,"path":"objects/obj_gameover/obj_gameover.yy",},
+    {"name":"obj_gotoroom1","order":4,"path":"objects/obj_gotoroom1/obj_gotoroom1.yy",},
+    {"name":"obj_gotoroom2","order":3,"path":"objects/obj_gotoroom2/obj_gotoroom2.yy",},
+    {"name":"obj_hazard","order":2,"path":"objects/obj_hazard/obj_hazard.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Room_ending","order":3,"path":"rooms/Room_ending/Room_ending.yy",},
+    {"name":"Room_gameover","order":2,"path":"rooms/Room_gameover/Room_gameover.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"sfx_ugh","order":1,"path":"sounds/sfx_ugh/sfx_ugh.yy",},
+    {"name":"spr_batman_running","order":1,"path":"sprites/spr_batman_running/spr_batman_running.yy",},
+    {"name":"spr_goto","order":5,"path":"sprites/spr_goto/spr_goto.yy",},
+    {"name":"spr_hazard","order":4,"path":"sprites/spr_hazard/spr_hazard.yy",},
+    {"name":"spr_tile_city","order":3,"path":"sprites/spr_tile_city/spr_tile_city.yy",},
+  ],
+}
