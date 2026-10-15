@@ -18,7 +18,10 @@ hp = 100;
 hsp = 0;
 vsp = 0;
 grav = 1;
-jump_speed = -9;
+jump_speed = -10;
 max_fall = 10;
+crouch_spd = 1.5;                // velocidad agachado
+          // máscara de pie
+mask_crouch = spr_samu_crouch;   // máscara agachado
 
 state = scr_state_idle;

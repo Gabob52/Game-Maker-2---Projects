@@ -19,6 +19,11 @@ function scr_state_idle(){
 	} else if (up) {
 		vsp = jump_speed;
 		state = scr_state_jump;
+			} else if (up) {
+		vsp = jump_speed;
+		state = scr_state_jump;
+	} else if (down) {
+		state = scr_state_crouch;
 	} else if (right || left) {
 		state = scr_state_move;
 	}
