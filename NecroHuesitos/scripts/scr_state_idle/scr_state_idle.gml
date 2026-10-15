@@ -1,5 +1,5 @@
 function scr_state_idle(){
-	sprite_index = spr_huesitoman;
+	sprite_index = spr_samu;
 	if(right || left || up || down){
 		state = scr_state_move;
 }

@@ -14,5 +14,5 @@ function scr_state_move(){
 		state= scr_state_idle;
 		}
 
-		sprite_index = spr_huesitoman;
+		sprite_index = spr_samu_walk;
 }
