@@ -25,7 +25,9 @@ function scr_state_move(){
 	scr_physics();
 
 	if (!scr_on_ground()) {
-		state = scr_state_jump;
+		state = scr_state_fall;
+	} else if (roll_pressed && roll_cooldown <= 0) {
+		scr_roll_start();
 	} else if (up_pressed) {
 		vsp = jump_speed;
 		state = scr_state_jump;

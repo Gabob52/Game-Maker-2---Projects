@@ -6,4 +6,5 @@ function scr_get_input(){
 	down = keyboard_check(ord("S"));
 	attack = keyboard_check(ord("J"));
 	up_pressed = keyboard_check_pressed(ord("W"));
+	roll_pressed = keyboard_check_pressed(ord("K"));
 }

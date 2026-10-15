@@ -15,7 +15,9 @@ function scr_state_idle(){
 	scr_physics();
 
 	if (!scr_on_ground()) {
-		state = scr_state_jump;
+		state = scr_state_fall;
+	} else if (roll_pressed && roll_cooldown <= 0) {
+		scr_roll_start();	
 	} else if (up_pressed) {
 		vsp = jump_speed;
 		state = scr_state_jump;
@@ -26,5 +28,12 @@ function scr_state_idle(){
 		state = scr_state_crouch;
 	} else if (right || left) {
 		state = scr_state_move;
+	}
+	else if(attack){
+		image_index = 0;
+	if(attack_sensor == noone){
+			attack_sensor = instance_create_layer(x+(30*h_dir),y,"instances",obj_player_attack_sensor);
+		}		
+		state = scr_state_attack;
 	}
 }

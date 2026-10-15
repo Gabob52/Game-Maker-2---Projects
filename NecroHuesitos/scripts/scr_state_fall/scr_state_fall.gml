@@ -6,7 +6,8 @@ function scr_state_fall(){
 
 	scr_physics();
 
-	if (scr_on_ground()) {
-		state = (_input != 0) ? scr_state_move : scr_state_idle;
+if (scr_on_ground()) {
+		if (down) state = scr_state_crouch;
+		else state = (_input != 0) ? scr_state_move : scr_state_idle;
 	}
 }
