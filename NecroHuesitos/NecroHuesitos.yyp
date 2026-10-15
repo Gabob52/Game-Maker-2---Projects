@@ -10,8 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script","folderPath":"folders/script.yy","name":"script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tileset","folderPath":"folders/tileset.yy","name":"tileset","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,6 +29,8 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"scr_get_input","path":"scripts/scr_get_input/scr_get_input.yy",},},
+    {"id":{"name":"scr_physics","path":"scripts/scr_physics/scr_physics.yy",},},
+    {"id":{"name":"scr_state_fall","path":"scripts/scr_state_fall/scr_state_fall.yy",},},
     {"id":{"name":"scr_state_idle","path":"scripts/scr_state_idle/scr_state_idle.yy",},},
     {"id":{"name":"scr_state_jump","path":"scripts/scr_state_jump/scr_state_jump.yy",},},
     {"id":{"name":"scr_state_move","path":"scripts/scr_state_move/scr_state_move.yy",},},

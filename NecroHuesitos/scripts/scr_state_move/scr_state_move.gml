@@ -1,4 +1,4 @@
-function scr_state_move(){
+/*function scr_state_move(){
 	if(right){
 		x = x+spd;
 		image_xscale = 1;
@@ -15,4 +15,21 @@ function scr_state_move(){
 		}
 
 		sprite_index = spr_samu_walk;
+}*/
+
+function scr_state_move(){
+	sprite_index = spr_samu_walk;
+	var _input = right - left;
+	hsp = _input * spd;
+	if (_input != 0) image_xscale = _input;
+	scr_physics();
+
+	if (!scr_on_ground()) {
+		state = scr_state_jump;
+	} else if (up) {
+		vsp = jump_speed;
+		state = scr_state_jump;
+	} else if (_input == 0) {
+		state = scr_state_idle;
+	}
 }
