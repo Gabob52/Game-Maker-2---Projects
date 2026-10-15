@@ -16,7 +16,7 @@ function scr_state_idle(){
 
 	if (!scr_on_ground()) {
 		state = scr_state_jump;
-	} else if (up) {
+	} else if (up_pressed) {
 		vsp = jump_speed;
 		state = scr_state_jump;
 			} else if (up) {

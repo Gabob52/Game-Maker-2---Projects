@@ -12,16 +12,16 @@ jump_pressed = false;
 
 state = scr_state_idle;*/
 
-mask_index = spr_samu;   // máscara fija para todos los estados
+mask_index = spr_samu;   
 spd = 3;
+crouch_spd = 1.5;               
 hp = 100; 
 hsp = 0;
 vsp = 0;
-grav = 1;
-jump_speed = -10;
+grav = 0.5;
+jump_speed = -9;
 max_fall = 10;
-crouch_spd = 1.5;                // velocidad agachado
-          // máscara de pie
-mask_crouch = spr_samu_crouch;   // máscara agachado
+up_pressed = false;
+
 
 state = scr_state_idle;
