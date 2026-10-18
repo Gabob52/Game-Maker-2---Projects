@@ -28,6 +28,9 @@
     {"name":"inst_1674FABA","path":"rooms/Room/Room.yy",},
     {"name":"inst_7FB7649D","path":"rooms/Room/Room.yy",},
     {"name":"inst_E4C4F60","path":"rooms/Room/Room.yy",},
+    {"name":"inst_5C709F96","path":"rooms/Room/Room.yy",},
+    {"name":"inst_C6582E9","path":"rooms/Room/Room.yy",},
+    {"name":"inst_49C81411","path":"rooms/Room/Room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -56,6 +59,9 @@
       ],"layers":[],"name":"instances_wall","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"instances_obj","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6B24E3AC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B24E3AC1","objectId":{"name":"obj_samu","path":"objects/obj_samu/obj_samu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5C709F96","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C709F96","objectId":{"name":"obj_enemy_demon","path":"objects/obj_enemy_demon/obj_enemy_demon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6097561,"scaleY":0.5362319,"x":576.0,"y":96.23189,},
+        {"$GMRInstance":"v4","%Name":"inst_C6582E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C6582E9","objectId":{"name":"obj_enemy_demon","path":"objects/obj_enemy_demon/obj_enemy_demon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6097561,"scaleY":0.5362319,"x":624.0,"y":112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_49C81411","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49C81411","objectId":{"name":"obj_enemy_demon","path":"objects/obj_enemy_demon/obj_enemy_demon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6097561,"scaleY":0.5362319,"x":368.0,"y":64.0,},
       ],"layers":[],"name":"instances_obj","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tileset_obj","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tileset_obj","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":86,"TileCompressedData":[
           -34,-2147483648,-12,0,-54,-2147483648,-2,0,-11,-2147483648,-7,0,2,1504,1505,-10,0,-54,-2147483648,-2,

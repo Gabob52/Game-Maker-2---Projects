@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_attack",
   "parent":{
-    "name":"script",
-    "path":"folders/script.yy",
+    "name":"player_states",
+    "path":"folders/script/player_states.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
