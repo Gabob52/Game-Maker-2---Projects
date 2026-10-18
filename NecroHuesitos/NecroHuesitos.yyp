@@ -14,6 +14,8 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script","folderPath":"folders/script.yy","name":"script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"tileset","folderPath":"folders/sprites/tileset.yy","name":"tileset","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Samu","folderPath":"folders/sprites/Samu.yy","name":"Samu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tileset","folderPath":"folders/tileset.yy","name":"tileset","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -25,8 +27,11 @@
   },
   "name":"NecroHuesitos",
   "resources":[
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
+    {"id":{"name":"obj_hazard","path":"objects/obj_hazard/obj_hazard.yy",},},
     {"id":{"name":"obj_samu","path":"objects/obj_samu/obj_samu.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"Room_gameover","path":"rooms/Room_gameover/Room_gameover.yy",},},
     {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"scr_attack","path":"scripts/scr_attack/scr_attack.yy",},},
     {"id":{"name":"scr_can_stand","path":"scripts/scr_can_stand/scr_can_stand.yy",},},
@@ -39,6 +44,7 @@
     {"id":{"name":"scr_state_jump","path":"scripts/scr_state_jump/scr_state_jump.yy",},},
     {"id":{"name":"scr_state_move","path":"scripts/scr_state_move/scr_state_move.yy",},},
     {"id":{"name":"scr_state_roll","path":"scripts/scr_state_roll/scr_state_roll.yy",},},
+    {"id":{"name":"spr_hazard","path":"sprites/spr_hazard/spr_hazard.yy",},},
     {"id":{"name":"spr_samu_attack","path":"sprites/spr_samu_attack/spr_samu_attack.yy",},},
     {"id":{"name":"spr_samu_crouch_walk","path":"sprites/spr_samu_crouch_walk/spr_samu_crouch_walk.yy",},},
     {"id":{"name":"spr_samu_crouch","path":"sprites/spr_samu_crouch/spr_samu_crouch.yy",},},
@@ -58,6 +64,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room","path":"rooms/Room/Room.yy",},},
+    {"roomId":{"name":"Room_gameover","path":"rooms/Room_gameover/Room_gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

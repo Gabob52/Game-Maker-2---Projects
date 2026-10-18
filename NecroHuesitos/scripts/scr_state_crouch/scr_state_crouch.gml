@@ -1,5 +1,5 @@
 function scr_state_crouch(){
-	sprite_index = spr_samu_crouch;   // poné el nombre real de tu sprite
+	sprite_index = spr_samu_crouch; 
 	var _input = right - left;
 	hsp = _input * crouch_spd;
 	if (_input != 0) image_xscale = _input;
