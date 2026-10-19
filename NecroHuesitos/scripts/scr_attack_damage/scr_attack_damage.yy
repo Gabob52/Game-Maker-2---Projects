@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_attack_damage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_attack_damage",
+  "parent":{
+    "name":"player_states",
+    "path":"folders/script/player_states.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,6 +1,8 @@
 mask_index = spr_samu;   
 
 hp = 100; //Puntos de salud
+hurt = false;
+hurt_timer = 0;
 spd = 3; //velocidad movimiento
 crouch_spd = 1.5; //velocidad agachado 
 
